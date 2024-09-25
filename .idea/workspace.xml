@@ -9,6 +9,8 @@
       <change beforePath="$PROJECT_DIR$/client-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MERN Stack/blog&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/React website/new-twtsys-dashboard&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -48,6 +50,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MERN Stack\blog\client-react\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727239466133</updated>
-      <workItem from="1727239467621" duration="8703000" />
+      <workItem from="1727239467621" duration="19410000" />
     </task>
     <servers />
   </component>
