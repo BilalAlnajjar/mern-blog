@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d12ad2ed-acb1-4990-bc05-71de7dd0dc67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-node/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-node/controllers/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-node/routes/auth.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-node/routes/auth.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727239466133</updated>
-      <workItem from="1727239467621" duration="48421000" />
+      <workItem from="1727239467621" duration="53147000" />
     </task>
     <servers />
   </component>
