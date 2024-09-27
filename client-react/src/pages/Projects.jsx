@@ -1,6 +1,5 @@
-import React from 'react';
 
-function Projects(props) {
+function Projects() {
     return (
         <div>Projects</div>
     );

@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import {Link,useNavigate} from "react-router-dom";
 import {Alert, Button, Label, Spinner, TextInput} from "flowbite-react";
 
-function SignUp(props) {
+function SignUp() {
     const [formData,setFormData] = useState({})
     const [errorMessage,setErrorMessage] = useState(null)
     const [loading,setLoading] = useState(false)
@@ -47,7 +47,7 @@ function SignUp(props) {
                 <div className={"flex-1"}>
                     <Link to={"/"} className={"text-4xl font-bold dark:text-white"}>
                 <span className={"px-2 py-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white"}>
-                    Belal's</span>Blog
+                    Belalt&apos;s</span>Blog
                     </Link>
                     <p className={"text-sm mt-5 "}>
                         t is a long established fact that a reader will be distracted
