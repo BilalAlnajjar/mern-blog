@@ -7,6 +7,8 @@
     <list default="true" id="d12ad2ed-acb1-4990-bc05-71de7dd0dc67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-react/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -72,7 +74,7 @@
       <workItem from="1727239467621" duration="59565000" />
       <workItem from="1727373971994" duration="583000" />
       <workItem from="1727375442798" duration="10044000" />
-      <workItem from="1727494960175" duration="1655000" />
+      <workItem from="1727494960175" duration="5117000" />
     </task>
     <servers />
   </component>
