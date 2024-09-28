@@ -24,7 +24,7 @@ function Header() {
                     className={"hidden lg:inline"}
                 />
             </form>
-            <Button className={"w-12 h-10 lg:hidden"} color="gray" pill>
+            <Button className={"w-8 h-8 lg:hidden"} color="gray" pill>
                 <AiOutlineSearch />
             </Button>
             <div className={"flex gap-2 md:order-2"}>
@@ -37,7 +37,7 @@ function Header() {
                     currentUser ?
                         (
                             <Dropdown
-                                label={<Avatar alt={"user"} img={currentUser.profilePicture} rounded />}
+                                label={<Avatar size="sm" alt={"user"}  img={currentUser.profilePicture} rounded />}
                                 arrowIcon={false} inline>
                                 <Dropdown.Header>
                                     <span className={"block text-sm "}>@{currentUser.username}</span>
