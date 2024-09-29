@@ -20,7 +20,11 @@ const persistedReducer = persistReducer(persistConfig,rootReducer)
 export const store = configureStore({
     reducer: persistedReducer,
     middleware:(getDefaultMiddleware) => getDefaultMiddleware({
-        serializable:false,
+        serializableCheck: {
+            // تجاهل الأكشنات الخاصة بـ redux-persist
+            ignoredActions: ["persist/PERSIST", "persist/REHYDRATE"],
+            ignoredPaths: ["register", "rehydrate"],
+        },
     })
 })
 
