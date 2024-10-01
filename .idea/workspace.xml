@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d12ad2ed-acb1-4990-bc05-71de7dd0dc67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-node/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-node/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-node/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-node/routes/user.route.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-react/src/components/DashProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/components/DashProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/components/DashSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/components/DashSidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/pages/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/pages/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/pages/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/pages/SignUp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-react/src/redux/user/userSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/redux/user/userSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +80,8 @@
       <workItem from="1727239467621" duration="59565000" />
       <workItem from="1727373971994" duration="583000" />
       <workItem from="1727375442798" duration="10044000" />
-      <workItem from="1727494960175" duration="36546000" />
+      <workItem from="1727494960175" duration="41507000" />
+      <workItem from="1727757592265" duration="321000" />
     </task>
     <servers />
   </component>

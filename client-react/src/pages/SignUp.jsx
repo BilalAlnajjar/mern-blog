@@ -48,7 +48,7 @@ function SignUp() {
                 <div className={"flex-1"}>
                     <Link to={"/"} className={"text-4xl font-bold dark:text-white"}>
                 <span className={"px-2 py-0.5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white"}>
-                    Belalt&apos;s</span>Blog
+                    Belal&apos;s</span>Blog
                     </Link>
                     <p className={"text-sm mt-5 "}>
                         t is a long established fact that a reader will be distracted
