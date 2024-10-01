@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d12ad2ed-acb1-4990-bc05-71de7dd0dc67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/src/components/DashProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/components/DashProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-node/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -80,7 +76,7 @@
       <workItem from="1727373971994" duration="583000" />
       <workItem from="1727375442798" duration="10044000" />
       <workItem from="1727494960175" duration="41507000" />
-      <workItem from="1727757592265" duration="5855000" />
+      <workItem from="1727757592265" duration="9330000" />
     </task>
     <servers />
   </component>
