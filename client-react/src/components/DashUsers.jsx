@@ -17,7 +17,7 @@ function DashUsers() {
                 const data = await res.json()
                 if (res.ok) {
                     setUsers(data.users)
-                    if(data.users.length < 5){
+                    if(data.users.length < 9){
                         setShowMore(false)
                     }
                 }
@@ -46,10 +46,10 @@ function DashUsers() {
             console.log(error.message)
         }
     }
-    const handelDeletePost = async () =>{
+    const handelDeleteUser = async () =>{
         setShowDeleteModal(false)
         try {
-            const res = await fetch(`/api/post/deletepost/${userIdDelete}/${currentUser._id}`,{
+            const res = await fetch(`/api/user/delete/${userIdDelete}`,{
                 method:"DELETE",
             })
 
@@ -57,9 +57,8 @@ function DashUsers() {
             if(!res.ok){
                 console.log(data.message)
             }else{
-                setUsers((prev) => prev.filter((post) => post._id !== userIdDelete))
+                setUsers((prev) => prev.filter((user) => user._id !== userIdDelete))
             }
-
 
         }catch (error){
             console.log(error.message)
@@ -127,9 +126,9 @@ function DashUsers() {
                     <div className={"text-center"}>
                         <HiOutlineExclamationCircle className={"h-14 w-14 text-gray-400 dark:text-gray-200 mx-auto"}/>
                         <h3 className={"mb-5 text-lg text-gray-700 dark:text-gray-400 font-semibold"}>Are you sure you
-                            want to delete this post ?</h3>
+                            want to delete this user ?</h3>
                         <div className={"flex justify-center gap-4"}>
-                            <Button color={"failure"} onClick={handelDeletePost}>Yes, I&apos;m sure</Button>
+                            <Button color={"failure"} onClick={handelDeleteUser}>Yes, I&apos;m sure</Button>
                             <Button color={"gray"} onClick={() => setShowDeleteModal(false)}>No, cancel</Button>
                         </div>
                     </div>
