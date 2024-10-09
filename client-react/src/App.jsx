@@ -11,6 +11,7 @@ import PrivateRoute from "./components/PrivateRoute.jsx";
 import AdminPrivateRoute from "./components/AdminPrivateRoute.jsx";
 import CreatePost from "./pages/CreatePost.jsx";
 import UpdatePost from "./pages/UpdatePost.jsx";
+import PostPage from "./pages/PostPage.jsx";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                     <Route path="/update-post/:postId" element={<UpdatePost />} />
                 </Route>
                 <Route path="/projects" element={<Projects />} />
+                <Route path="/post/:postSlug" element={<PostPage />} />
             </Routes>
             <FooterComponent/>
         </BrowserRouter>
