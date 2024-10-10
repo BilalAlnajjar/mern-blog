@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d12ad2ed-acb1-4990-bc05-71de7dd0dc67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/src/components/DashPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/components/DashPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/pages/PostPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/pages/PostPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-react/src/pages/UpdatePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-react/src/pages/UpdatePost.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +86,7 @@
       <workItem from="1728297717017" duration="1005000" />
       <workItem from="1728356649495" duration="12414000" />
       <workItem from="1728393383736" duration="18004000" />
+      <workItem from="1728534353926" duration="7603000" />
     </task>
     <servers />
   </component>

@@ -19,27 +19,28 @@ function UpdatePost() {
     const { postId } = useParams()
     const { currentUser } = useSelector(state => state.user)
 
-   useEffect(() => {
-       try {
-           const fetchPost = async () => {
-               const res = await fetch(`/api/post/getPosts?postId=${postId}`)
-               const data = await res.json()
-               if(!res.ok){
-                   console.log(data.message)
-                   setPublishError(data.message)
-                   return
-               }
-               if(res.ok){
-                   setPublishError(null)
-                   setFormData(data.posts[0])
-               }
-           }
+    useEffect(() => {
+        const fetchPost = async () => {
+            try {
+                const res = await fetch(`/api/post/getPosts?postId=${postId}`);
+                const data = await res.json();
+                if (!res.ok) {
+                    console.log(data.message);
+                    setPublishError(data.message);
+                    return;
+                }
+                if (res.ok) {
+                    setPublishError(null);
+                    setFormData(data.posts[0]);  // تأكد من تحديث البيانات بشكل صحيح
+                }
+            } catch (error) {
+                console.log(error.message);
+            }
+        };
 
-           fetchPost()
-       }catch (error) {
-           console.log(error.message)
-       }
-   },[postId])
+        fetchPost();
+    }, [postId]);
+
 
     const handelUploadImage = async () => {
         try {
@@ -150,7 +151,9 @@ function UpdatePost() {
                             required placeholder={"Write something..."}
                             value={formData.content}
                             className={"h-72 mb-12"}
-                            onChange={(value) => setFormData({...formData,content:value})}
+                            onChange={(value) => {
+                                setFormData((prev) => ({ ...prev, content: value }));
+                            }}
                 />
                 <Button type={"submit"} gradientDuoTone={"purpleToPink"}>
                     Update post
